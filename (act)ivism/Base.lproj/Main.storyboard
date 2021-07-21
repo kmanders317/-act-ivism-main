@@ -77,13 +77,13 @@
                                 <rect key="frame" x="29" y="436" width="165" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.23921568627450979" green="0.16862745098039217" blue="0.33725490196078434" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Environment"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="whq-sM-rVR">
                                 <rect key="frame" x="29" y="529" width="165" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.23921568630000001" green="0.16862745100000001" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Animal Rights"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eHm-Wh-ard">
                                 <rect key="frame" x="221" y="436" width="165" height="73"/>
@@ -101,7 +101,7 @@
                                 <rect key="frame" x="29" y="619" width="165" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.23921568630000001" green="0.16862745100000001" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="Social Justice"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VZj-ZR-rN0">
                                 <rect key="frame" x="221" y="619" width="165" height="73"/>
@@ -137,10 +137,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--HomePage-->
         <scene sceneID="b3F-oh-0Qh">
             <objects>
-                <viewController id="7JJ-PW-prX" sceneMemberID="viewController">
+                <viewController title="HomePage" id="7JJ-PW-prX" customClass="HomePageViewController" customModule="_act_ivism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IIR-Qf-d7K">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,10 +243,10 @@
             </objects>
             <point key="canvasLocation" x="776.81159420289862" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--SavedEvents-->
         <scene sceneID="R6h-g0-saJ">
             <objects>
-                <viewController id="oWE-4n-uzV" sceneMemberID="viewController">
+                <viewController title="SavedEvents" id="oWE-4n-uzV" customClass="SavedEventsViewController" customModule="_act_ivism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nkc-hF-wlC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -337,10 +337,10 @@
             </objects>
             <point key="canvasLocation" x="1508.6956521739132" y="75.669642857142847"/>
         </scene>
-        <!--View Controller-->
+        <!--FindEvents-->
         <scene sceneID="6kT-ZP-Zpq">
             <objects>
-                <viewController id="cz4-ae-PJs" sceneMemberID="viewController">
+                <viewController title="FindEvents" id="cz4-ae-PJs" customClass="FindEventsViewController" customModule="_act_ivism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vQf-4g-RtR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -420,10 +420,10 @@
             </objects>
             <point key="canvasLocation" x="2201" y="76"/>
         </scene>
-        <!--View Controller-->
+        <!--WeeklyChallenges-->
         <scene sceneID="cfp-NH-hfh">
             <objects>
-                <viewController id="2xI-K7-jfD" sceneMemberID="viewController">
+                <viewController title="WeeklyChallenges" id="2xI-K7-jfD" customClass="WeeklyChallengesViewController" customModule="_act_ivism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zFz-n8-d31">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,10 +444,10 @@
             </objects>
             <point key="canvasLocation" x="2928" y="76"/>
         </scene>
-        <!--View Controller-->
+        <!--YourImpact-->
         <scene sceneID="23P-6B-A5z">
             <objects>
-                <viewController id="bND-mp-x5D" sceneMemberID="viewController">
+                <viewController title="YourImpact" id="bND-mp-x5D" customClass="YourImpactViewController" customModule="_act_ivism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Xbd-yU-lia">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

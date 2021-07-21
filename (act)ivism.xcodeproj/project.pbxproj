@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C7D5EFD26A8CFA6003DAEA3 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5EFC26A8CFA6003DAEA3 /* HomePageViewController.swift */; };
+		3C7D5EFF26A8CFD1003DAEA3 /* SavedEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5EFE26A8CFD1003DAEA3 /* SavedEventsViewController.swift */; };
+		3C7D5F0126A8CFF4003DAEA3 /* FindEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5F0026A8CFF4003DAEA3 /* FindEventsViewController.swift */; };
+		3C7D5F0326A8D016003DAEA3 /* WeeklyChallengesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5F0226A8D016003DAEA3 /* WeeklyChallengesViewController.swift */; };
+		3C7D5F0526A8D035003DAEA3 /* YourImpactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5F0426A8D035003DAEA3 /* YourImpactViewController.swift */; };
 		E3E61E0626A7673C00469204 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E61E0526A7673C00469204 /* AppDelegate.swift */; };
 		E3E61E0826A7673C00469204 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E61E0726A7673C00469204 /* SceneDelegate.swift */; };
 		E3E61E0A26A7673C00469204 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E61E0926A7673C00469204 /* ViewController.swift */; };
@@ -17,6 +22,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C7D5EFC26A8CFA6003DAEA3 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		3C7D5EFE26A8CFD1003DAEA3 /* SavedEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedEventsViewController.swift; sourceTree = "<group>"; };
+		3C7D5F0026A8CFF4003DAEA3 /* FindEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEventsViewController.swift; sourceTree = "<group>"; };
+		3C7D5F0226A8D016003DAEA3 /* WeeklyChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallengesViewController.swift; sourceTree = "<group>"; };
+		3C7D5F0426A8D035003DAEA3 /* YourImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourImpactViewController.swift; sourceTree = "<group>"; };
 		E3E61E0226A7673B00469204 /* (act)ivism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "(act)ivism.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E61E0526A7673C00469204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E61E0726A7673C00469204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +72,11 @@
 				E3E61E0726A7673C00469204 /* SceneDelegate.swift */,
 				E3E61E0926A7673C00469204 /* ViewController.swift */,
 				E3E61E0B26A7673C00469204 /* Main.storyboard */,
+				3C7D5F0426A8D035003DAEA3 /* YourImpactViewController.swift */,
+				3C7D5F0226A8D016003DAEA3 /* WeeklyChallengesViewController.swift */,
+				3C7D5F0026A8CFF4003DAEA3 /* FindEventsViewController.swift */,
+				3C7D5EFE26A8CFD1003DAEA3 /* SavedEventsViewController.swift */,
+				3C7D5EFC26A8CFA6003DAEA3 /* HomePageViewController.swift */,
 				E3E61E1126A7673E00469204 /* Assets.xcassets */,
 				E3E61E1326A7673E00469204 /* LaunchScreen.storyboard */,
 				E3E61E1626A7673E00469204 /* Info.plist */,
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7D5F0126A8CFF4003DAEA3 /* FindEventsViewController.swift in Sources */,
 				E3E61E0A26A7673C00469204 /* ViewController.swift in Sources */,
+				3C7D5EFF26A8CFD1003DAEA3 /* SavedEventsViewController.swift in Sources */,
 				E3E61E1026A7673C00469204 /* _act_ivism.xcdatamodeld in Sources */,
 				E3E61E0626A7673C00469204 /* AppDelegate.swift in Sources */,
+				3C7D5F0526A8D035003DAEA3 /* YourImpactViewController.swift in Sources */,
+				3C7D5F0326A8D016003DAEA3 /* WeeklyChallengesViewController.swift in Sources */,
+				3C7D5EFD26A8CFA6003DAEA3 /* HomePageViewController.swift in Sources */,
 				E3E61E0826A7673C00469204 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
