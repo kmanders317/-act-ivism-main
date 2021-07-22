@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5BE4BB26A9E639006349BC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5BE4BA26A9E639006349BC /* libsqlite3.tbd */; };
 		3C7D5EFD26A8CFA6003DAEA3 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5EFC26A8CFA6003DAEA3 /* HomePageViewController.swift */; };
 		3C7D5EFF26A8CFD1003DAEA3 /* SavedEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5EFE26A8CFD1003DAEA3 /* SavedEventsViewController.swift */; };
 		3C7D5F0126A8CFF4003DAEA3 /* FindEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7D5F0026A8CFF4003DAEA3 /* FindEventsViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C5BE4BA26A9E639006349BC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3C7D5EFC26A8CFA6003DAEA3 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		3C7D5EFE26A8CFD1003DAEA3 /* SavedEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedEventsViewController.swift; sourceTree = "<group>"; };
 		3C7D5F0026A8CFF4003DAEA3 /* FindEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEventsViewController.swift; sourceTree = "<group>"; };
@@ -43,17 +45,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C5BE4BB26A9E639006349BC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C5BE4B926A9E639006349BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5BE4BA26A9E639006349BC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E3E61DF926A7673B00469204 = {
 			isa = PBXGroup;
 			children = (
 				E3E61E0426A7673B00469204 /* (act)ivism */,
 				E3E61E0326A7673B00469204 /* Products */,
+				3C5BE4B926A9E639006349BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
