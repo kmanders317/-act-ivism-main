@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HVT-et-Rsh">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -120,7 +120,7 @@
                                 <color key="backgroundColor" red="0.72549019609999998" green="0.83921568629999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
-                                    <segue destination="7JJ-PW-prX" kind="show" id="2Cf-Bs-dPH"/>
+                                    <action selector="signUpButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H8q-k5-mtU"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t2g-os-rI8">
@@ -138,14 +138,15 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="75.669642857142847"/>
+            <point key="canvasLocation" x="-55" y="-386"/>
         </scene>
         <!--HomePage-->
         <scene sceneID="b3F-oh-0Qh">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kew-7w-lEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController title="HomePage" id="7JJ-PW-prX" customClass="HomePageViewController" customModule="_act_ivism" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IIR-Qf-d7K">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKv-jC-FKE">
@@ -237,25 +238,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.23921568630000001" green="0.16862745100000001" blue="0.33725490200000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GaY-gL-VPg" userLabel="Home">
-                                <rect key="frame" x="0.0" y="759" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" image="homekit" catalog="system" selectedImage="homekit" id="8Cl-wi-kRr" userLabel="Home"/>
-                                    <tabBarItem title="Events" image="magnifyingglass" catalog="system" id="t40-XM-mvC"/>
-                                    <tabBarItem title="Saved" image="folder" catalog="system" id="bOm-Cz-hV1"/>
-                                    <tabBarItem title="Challenges" image="square.and.pencil" catalog="system" id="XiC-BT-jIp"/>
-                                    <tabBarItem title="Your Impact" image="heart" catalog="system" id="HZb-3P-du1"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0iF-WF-mK5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="homekit" catalog="system" id="dx9-np-5bx"/>
                     <navigationItem key="navigationItem" id="JXD-Oc-Mac"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kew-7w-lEp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="776.81159420289862" y="75.669642857142847"/>
         </scene>
@@ -344,26 +333,37 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NsS-sp-5Om" userLabel="Home">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" image="homekit" catalog="system" selectedImage="homekit" id="8XN-rC-YJK" userLabel="Home"/>
-                                    <tabBarItem title="Events" image="magnifyingglass" catalog="system" id="Lgn-da-kPc"/>
-                                    <tabBarItem title="Saved" image="folder" catalog="system" id="jIU-7o-kpc"/>
-                                    <tabBarItem title="Challenges" image="square.and.pencil" catalog="system" id="fOp-It-Wdh"/>
-                                    <tabBarItem title="Your Impact" image="heart" catalog="system" id="qAY-AK-fjc"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SjJ-GA-yWy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Saved" image="folder" catalog="system" id="AEC-2v-8eW"/>
+                    <navigationItem key="navigationItem" id="zN0-9e-Mj8"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4CJ-Sh-6oz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1508.6956521739132" y="75.669642857142847"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="GRh-rI-ryg">
+            <objects>
+                <tabBarController id="HVT-et-Rsh" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fqu-Rh-QPM">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="7JJ-PW-prX" kind="relationship" relationship="viewControllers" id="qvJ-05-t1V"/>
+                        <segue destination="cz4-ae-PJs" kind="relationship" relationship="viewControllers" id="LJC-ZR-vUl"/>
+                        <segue destination="oWE-4n-uzV" kind="relationship" relationship="viewControllers" id="g6s-dE-2oP"/>
+                        <segue destination="2xI-K7-jfD" kind="relationship" relationship="viewControllers" id="Qse-1i-bUX"/>
+                        <segue destination="bND-mp-x5D" kind="relationship" relationship="viewControllers" id="MRo-gh-JIR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="06o-1I-Hvl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-761" y="285"/>
         </scene>
         <!--FindEvents-->
         <scene sceneID="6kT-ZP-Zpq">
@@ -439,22 +439,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g8z-lh-f5y" userLabel="Home">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" image="homekit" catalog="system" selectedImage="homekit" id="Q4u-y5-Uko" userLabel="Home"/>
-                                    <tabBarItem title="Events" image="magnifyingglass" catalog="system" id="0Jb-lY-QTH"/>
-                                    <tabBarItem title="Saved" image="folder" catalog="system" id="jpV-fb-Gmy"/>
-                                    <tabBarItem title="Challenges" image="square.and.pencil" catalog="system" id="7wb-lm-oOy"/>
-                                    <tabBarItem title="Your Impact" image="heart" catalog="system" id="Omh-PT-qN2"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MuM-sI-NvV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Events" image="magnifyingglass" catalog="system" id="ZuK-EP-mYj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wFh-LU-9ZS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -475,22 +464,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kf9-7t-7ck" userLabel="Home">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" image="homekit" catalog="system" selectedImage="homekit" id="SfU-vr-vOf" userLabel="Home"/>
-                                    <tabBarItem title="Events" image="magnifyingglass" catalog="system" id="pyk-K8-bAT"/>
-                                    <tabBarItem title="Saved" image="folder" catalog="system" id="tRF-UM-62d"/>
-                                    <tabBarItem title="Challenges" image="square.and.pencil" catalog="system" id="r8G-nx-iVR"/>
-                                    <tabBarItem title="Your Impact" image="heart" catalog="system" id="6ha-Jg-qat"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="qub-XZ-7zm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Challenges" id="XmK-u7-3Up"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98t-t5-XYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -511,22 +489,11 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wf0-1F-qsT" userLabel="Home">
-                                <rect key="frame" x="0.0" y="813" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <items>
-                                    <tabBarItem title="Home" image="homekit" catalog="system" selectedImage="homekit" id="9PW-RK-78g" userLabel="Home"/>
-                                    <tabBarItem title="Events" image="magnifyingglass" catalog="system" id="Flu-8x-MO0"/>
-                                    <tabBarItem title="Saved" image="folder" catalog="system" id="tXl-Rk-mcL"/>
-                                    <tabBarItem title="Challenges" image="square.and.pencil" catalog="system" id="Fyg-bf-oEQ"/>
-                                    <tabBarItem title="Your Impact" image="heart" catalog="system" id="ndH-Ju-zzJ"/>
-                                </items>
-                            </tabBar>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="HJZ-Wq-NMh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Your Impact" image="heart" catalog="system" id="5kI-1q-FI1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IFs-qc-BTe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -541,7 +508,6 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="rectangle.fill" catalog="system" width="128" height="93"/>
         <image name="rectangle.portrait.fill" catalog="system" width="115" height="128"/>
-        <image name="square.and.pencil" catalog="system" width="128" height="115"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
