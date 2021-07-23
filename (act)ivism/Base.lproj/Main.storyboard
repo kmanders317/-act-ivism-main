@@ -297,11 +297,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.49019607840000001" green="0.51764705879999995" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aQE-Wm-QIT">
-                                <rect key="frame" x="170" y="182" width="77" height="111"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.49019607840000001" green="0.51764705879999995" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="oN9-M2-O9d">
                                 <rect key="frame" x="245" y="182" width="77" height="111"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -351,12 +346,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Cco-hp-bmR">
-                                <rect key="frame" x="170" y="290" width="244" height="149"/>
+                                <rect key="frame" x="165" y="289" width="244" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.72549019609999998" green="0.83921568629999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BLM Protest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avr-y9-Yck">
-                                <rect key="frame" x="222" y="308" width="99" height="22"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="    BLM Protest" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avr-y9-Yck">
+                                <rect key="frame" x="217" y="310" width="117" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
@@ -430,6 +425,11 @@
                                     <segue destination="cz4-ae-PJs" kind="show" id="585-LM-AY2"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="aQE-Wm-QIT">
+                                <rect key="frame" x="171" y="182" width="77" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.49019607840000001" green="0.51764705879999995" blue="0.69803921570000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SjJ-GA-yWy"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -457,6 +457,7 @@
                         <segue destination="oWE-4n-uzV" kind="relationship" relationship="viewControllers" id="g6s-dE-2oP"/>
                         <segue destination="2xI-K7-jfD" kind="relationship" relationship="viewControllers" id="Qse-1i-bUX"/>
                         <segue destination="bND-mp-x5D" kind="relationship" relationship="viewControllers" id="MRo-gh-JIR"/>
+                        <segue destination="bND-mp-x5D" kind="relationship" relationship="viewControllers" id="OpX-Od-88x"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="06o-1I-Hvl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -476,13 +477,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Out-xB-2AD">
-                                <rect key="frame" x="220" y="121" width="66" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" name="AccentColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Filter By:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qB7-nI-GrD">
@@ -583,7 +577,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="XyL-RV-7Ro">
-                                <rect key="frame" x="173" y="274" width="244" height="149"/>
+                                <rect key="frame" x="173" y="274" width="244" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.72549019609999998" green="0.83921568629999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
@@ -649,7 +643,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="rectangle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C30-Op-2tG">
-                                <rect key="frame" x="173" y="433" width="244" height="149"/>
+                                <rect key="frame" x="173" y="433" width="244" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.72549019609999998" green="0.83921568629999999" blue="0.32549019610000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
@@ -806,6 +800,13 @@
                                     <segue destination="7JJ-PW-prX" kind="show" id="hvf-tK-63V"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Out-xB-2AD">
+                                <rect key="frame" x="216" y="120" width="104" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="AccentColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="MuM-sI-NvV"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -836,7 +837,7 @@
                         <viewLayoutGuide key="safeArea" id="qub-XZ-7zm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Challenges" id="XmK-u7-3Up"/>
+                    <tabBarItem key="tabBarItem" title="Challenges" selectedImage="flag.fill" catalog="system" id="XmK-u7-3Up"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="98t-t5-XYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -869,11 +870,13 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="OpX-Od-88x"/>
         <segue reference="585-LM-AY2"/>
         <segue reference="4M3-Hq-eic"/>
         <segue reference="hvf-tK-63V"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="flag.fill" catalog="system" width="128" height="121"/>
         <image name="folder" catalog="system" width="128" height="97"/>
         <image name="heart" catalog="system" width="128" height="109"/>
         <image name="homekit" catalog="system" width="128" height="106"/>
