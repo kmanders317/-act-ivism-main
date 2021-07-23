@@ -22,6 +22,16 @@
 		E3E61E1526A7673E00469204 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3E61E1326A7673E00469204 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		DD6E7FA326AA6D3500B1162F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD6E7F9F26AA6D3500B1162F /* events_app.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DDEE228426A9EC3800FF7EAC;
+			remoteInfo = events_app;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		3C5BE4BA26A9E639006349BC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		3C7D5EFC26A8CFA6003DAEA3 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
@@ -29,6 +39,7 @@
 		3C7D5F0026A8CFF4003DAEA3 /* FindEventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEventsViewController.swift; sourceTree = "<group>"; };
 		3C7D5F0226A8D016003DAEA3 /* WeeklyChallengesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChallengesViewController.swift; sourceTree = "<group>"; };
 		3C7D5F0426A8D035003DAEA3 /* YourImpactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourImpactViewController.swift; sourceTree = "<group>"; };
+		DD6E7F9F26AA6D3500B1162F /* events_app.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = events_app.xcodeproj; path = ../../events_app/events_app.xcodeproj; sourceTree = "<group>"; };
 		E3E61E0226A7673B00469204 /* (act)ivism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "(act)ivism.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3E61E0526A7673C00469204 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3E61E0726A7673C00469204 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +71,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DD6E7FA026AA6D3500B1162F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD6E7FA426AA6D3500B1162F /* events_app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E3E61DF926A7673B00469204 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				E3E61E0526A7673C00469204 /* AppDelegate.swift */,
+				DD6E7F9F26AA6D3500B1162F /* events_app.xcodeproj */,
 				E3E61E0726A7673C00469204 /* SceneDelegate.swift */,
 				E3E61E0926A7673C00469204 /* ViewController.swift */,
 				E3E61E0B26A7673C00469204 /* Main.storyboard */,
@@ -142,12 +162,28 @@
 			mainGroup = E3E61DF926A7673B00469204;
 			productRefGroup = E3E61E0326A7673B00469204 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DD6E7FA026AA6D3500B1162F /* Products */;
+					ProjectRef = DD6E7F9F26AA6D3500B1162F /* events_app.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				E3E61E0126A7673B00469204 /* (act)ivism */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DD6E7FA426AA6D3500B1162F /* events_app.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = events_app.app;
+			remoteRef = DD6E7FA326AA6D3500B1162F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		E3E61E0026A7673B00469204 /* Resources */ = {
